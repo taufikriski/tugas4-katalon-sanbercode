@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Failed Login - wrong username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f6794c20-8901-49c0-8764-3f62d230c1aa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08740607-a071-424b-b605-7a692207b2e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4774197a-65c5-40a0-bc4e-4db903d6cfa7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'invalid_user'</defaultValue>
+      <description></description>
+      <id>08740607-a071-424b-b605-7a692207b2e8</id>
+      <masked>false</masked>
+      <name>invalid_username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>4774197a-65c5-40a0-bc4e-4db903d6cfa7</id>
+      <masked>false</masked>
+      <name>valid_password</name>
+   </variable>
+</TestCaseEntity>

@@ -21,9 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Swag Labs_user-name'), username_success)
+WebUI.setText(findTestObject('Failed Login - with wrong username/input_invalid_username'), invalid_username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setText(findTestObject('Failed Login - with wrong username/input_password'), valid_password)
 
-WebUI.click(findTestObject('Object Repository/Login/input_Swag Labs_login-button'))
+WebUI.click(findTestObject('Failed Login - with wrong username/btn_login'))
+
+WebUI.verifyElementPresent(findTestObject('Failed Login - with wrong username/alert_failed'), 5)
 
