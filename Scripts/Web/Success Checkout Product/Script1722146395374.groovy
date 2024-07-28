@@ -17,15 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Homepage/button_add_to_cart'))
 
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
+WebUI.click(findTestObject('Homepage/btn_cart_icon'))
 
-WebUI.setText(findTestObject('Success Login/input_username'), 'standard_user')
+WebUI.verifyElementVisible(findTestObject('Cart Page/cart_title'))
 
-WebUI.setText(findTestObject('Success Login/input_password'), password_success)
+WebUI.click(findTestObject('Cart Page/btn_checkout'))
 
-WebUI.click(findTestObject('Success Login/btn_login'))
+WebUI.setText(findTestObject('Checkout information page/input_name'), first_name)
 
-WebUI.verifyElementVisible(findTestObject('Success Login/page_title'))
+WebUI.setText(findTestObject('Checkout information page/input_last_name'), last_name)
+
+WebUI.setText(findTestObject('Checkout information page/input_postal_code'), postal_code)
 

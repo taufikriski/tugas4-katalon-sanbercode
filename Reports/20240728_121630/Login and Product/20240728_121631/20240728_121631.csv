@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login and Product,Chrome 126.0.0.0,,,28-07-2024 12:16:35,28-07-2024 12:16:42,6.551s,PASSED
+,,,,,,,
+Test Cases/Web/Succes Login,Chrome 126.0.0.0,,,28-07-2024 12:16:35,28-07-2024 12:16:41,5.310s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,28-07-2024 12:16:36,28-07-2024 12:16:37,1.738s,PASSED
+navigateToUrl(baseUrl),Chrome 126.0.0.0,,,28-07-2024 12:16:37,28-07-2024 12:16:38,0.517s,PASSED
+"setText(findTestObject(""Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_user-name""), username_success)",Chrome 126.0.0.0,,,28-07-2024 12:16:38,28-07-2024 12:16:40,2.033s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 126.0.0.0,,,28-07-2024 12:16:40,28-07-2024 12:16:40,0.375s,PASSED
+"click(findTestObject(""Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 126.0.0.0,,,28-07-2024 12:16:40,28-07-2024 12:16:41,0.369s,PASSED
+,,,,,,,
+Test Cases/Web/Success Acces Detail Product,Chrome 126.0.0.0,,,28-07-2024 12:16:41,28-07-2024 12:16:42,1.065s,PASSED
+"click(findTestObject(""Homepage/button_check_product""))",Chrome 126.0.0.0,,,28-07-2024 12:16:41,28-07-2024 12:16:41,0.461s,PASSED
+"verifyElementVisible(findTestObject(""Product/title_product""))",Chrome 126.0.0.0,,,28-07-2024 12:16:41,28-07-2024 12:16:42,0.533s,PASSED

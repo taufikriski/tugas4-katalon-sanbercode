@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,Chrome 126.0.0.0,,,28-07-2024 13:21:51,28-07-2024 13:22:10,19.160s,FAILED
+,,,,,,,
+Test Cases/Web/Succes Login,Chrome 126.0.0.0,,,28-07-2024 13:21:51,28-07-2024 13:22:02,10.703s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,28-07-2024 13:21:51,28-07-2024 13:21:53,1.817s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,28-07-2024 13:21:53,28-07-2024 13:21:54,0.428s,PASSED
+"setText(findTestObject(""Object Repository/test/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 126.0.0.0,,,28-07-2024 13:21:54,28-07-2024 13:21:56,2.154s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/test/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 126.0.0.0,,,28-07-2024 13:21:56,28-07-2024 13:21:56,0.530s,PASSED
+"click(findTestObject(""Object Repository/test/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 126.0.0.0,,,28-07-2024 13:21:56,28-07-2024 13:21:57,0.372s,PASSED
+"click(findTestObject(""Object Repository/test/Page_Swag Labs/button_Add to cart""))",Chrome 126.0.0.0,,,28-07-2024 13:21:57,28-07-2024 13:21:57,0.494s,PASSED
+"click(findTestObject(""Object Repository/test/Page_Swag Labs/a_1""))",Chrome 126.0.0.0,,,28-07-2024 13:21:57,28-07-2024 13:21:58,0.542s,PASSED
+"click(findTestObject(""Object Repository/test/Page_Swag Labs/button_Checkout""))",Chrome 126.0.0.0,,,28-07-2024 13:21:58,28-07-2024 13:21:58,0.614s,PASSED
+"setText(findTestObject(""Object Repository/test/Page_Swag Labs/input_Checkout Your Information_firstName""), ""Peter"")",Chrome 126.0.0.0,,,28-07-2024 13:21:58,28-07-2024 13:21:59,0.979s,PASSED
+"setText(findTestObject(""Object Repository/test/Page_Swag Labs/input_Checkout Your Information_lastName""), ""Parker"")",Chrome 126.0.0.0,,,28-07-2024 13:21:59,28-07-2024 13:22:00,0.820s,PASSED
+"setText(findTestObject(""Object Repository/test/Page_Swag Labs/input_Checkout Your Information_postalCode""), ""1234567"")",Chrome 126.0.0.0,,,28-07-2024 13:22:00,28-07-2024 13:22:01,0.824s,PASSED
+"click(findTestObject(""Object Repository/test/Page_Swag Labs/input_Cancel_continue""))",Chrome 126.0.0.0,,,28-07-2024 13:22:01,28-07-2024 13:22:01,0.623s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,28-07-2024 13:22:01,28-07-2024 13:22:02,0.205s,PASSED
+,,,,,,,
+Test Cases/Web/Success Checkout Product,Chrome 126.0.0.0,,,28-07-2024 13:22:08,28-07-2024 13:22:10,2.028s,FAILED
+"click(findTestObject(""Homepage/button_add_to_cart""))",Chrome 126.0.0.0,,,28-07-2024 13:22:08,28-07-2024 13:22:10,2.011s,FAILED

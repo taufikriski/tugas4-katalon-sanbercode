@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login and Product" time="6.551" tests="2" failures="0" errors="0">
+   <testsuite name="Login and Product" tests="2" failures="0" errors="0" time="6.551" skipped="0" timestamp="28-07-2024T12:16:35" hostname="taufi - DESKTOP-0TIJC0L" id="Test Suites/Login and Product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Pribadi\\QA\\Sanbercode\\tugas4-katalon-sanbercode\\tugas4-katalon-sanbercode\\Reports\\20240728_121630\\Login and Product\\20240728_121631"/>
+         <property name="logFiles" value="D:\\Pribadi\\QA\\Sanbercode\\tugas4-katalon-sanbercode\\tugas4-katalon-sanbercode\\Reports\\20240728_121630\\Login and Product\\20240728_121631\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="taufi - DESKTOP-0TIJC0L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.22"/>
+         <property name="sessionId" value="30ec2ffda6f0d818ecd20ea074c4162f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web/Succes Login" time="5.31" classname="Test Cases/Web/Succes Login" status="PASSED">
+         <system-out><![CDATA[28-07-2024T12:16:35 - [TEST_CASE][PASSED] - Test Cases/Web/Succes Login: Test Cases/Web/Succes Login
+
+28-07-2024T12:16:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-07-2024T12:16:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-07-2024T12:16:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-07-2024T12:16:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-07-2024T12:16:37 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://www.saucedemo.com/' successfully
+
+28-07-2024T12:16:38 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+28-07-2024T12:16:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_user-name"), username_success): Text 'standard_user' is set on object 'Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_user-name'
+
+28-07-2024T12:16:40 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_user-name'
+
+28-07-2024T12:16:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_password'
+
+28-07-2024T12:16:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_password'
+
+28-07-2024T12:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+28-07-2024T12:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Success Login/Page_Swag Labs/input_Swag Labs_login-button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Success Acces Detail Product" time="1.065" classname="Test Cases/Web/Success Acces Detail Product" status="PASSED">
+         <system-out><![CDATA[28-07-2024T12:16:41 - [TEST_CASE][PASSED] - Test Cases/Web/Success Acces Detail Product: Test Cases/Web/Success Acces Detail Product
+
+28-07-2024T12:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/button_check_product")): Object: 'Object Repository/Homepage/button_check_product' is clicked on
+
+28-07-2024T12:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/button_check_product' is clicked on
+
+28-07-2024T12:16:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product/title_product")): Object 'Object Repository/Product/title_product' is visible
+
+28-07-2024T12:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/Product/title_product' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-07-2024T12:16:35 - [TEST_SUITE][PASSED] - Login and Product: Test Cases/Web/Success Acces Detail Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

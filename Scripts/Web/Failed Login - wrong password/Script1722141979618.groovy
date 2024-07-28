@@ -27,5 +27,5 @@ WebUI.setText(findTestObject('Failed Login - with wrong password/invalid_passwor
 
 WebUI.click(findTestObject('Failed Login - with wrong password/btn_login'))
 
-WebUI.verifyElementPresent(findTestObject('Failed Login - with wrong password/alert_failed'), 0)
+WebUI.verifyElementVisible(findTestObject('Failed Login - with wrong password/alert_failed'), FailureHandling.STOP_ON_FAILURE)
 

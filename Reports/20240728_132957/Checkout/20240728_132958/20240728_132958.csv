@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,Chrome 126.0.0.0,,,28-07-2024 13:30:02,28-07-2024 13:30:19,16.984s,FAILED
+,,,,,,,
+Test Cases/Web/Succes Login,Chrome 126.0.0.0,,,28-07-2024 13:30:09,28-07-2024 13:30:10,1.564s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,28-07-2024 13:30:09,28-07-2024 13:30:10,1.055s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,28-07-2024 13:30:10,28-07-2024 13:30:10,0.379s,PASSED
+"setText(findTestObject(""Object Repository/test/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 126.0.0.0,,,28-07-2024 13:30:10,28-07-2024 13:30:10,0.114s,FAILED
+,,,,,,,
+Test Cases/Web/Success Checkout Product,Chrome 126.0.0.0,,,28-07-2024 13:30:17,28-07-2024 13:30:19,2.037s,FAILED
+"click(findTestObject(""Homepage/button_add_to_cart""))",Chrome 126.0.0.0,,,28-07-2024 13:30:17,28-07-2024 13:30:19,2.024s,FAILED

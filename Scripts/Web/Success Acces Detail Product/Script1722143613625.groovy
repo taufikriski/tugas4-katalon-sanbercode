@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Homepage/button_check_product'))
 
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
-
-WebUI.setText(findTestObject('Success Login/input_username'), 'standard_user')
-
-WebUI.setText(findTestObject('Success Login/input_password'), password_success)
-
-WebUI.click(findTestObject('Success Login/btn_login'))
-
-WebUI.verifyElementVisible(findTestObject('Success Login/page_title'))
+WebUI.verifyElementVisible(findTestObject('Product/title_product'))
 

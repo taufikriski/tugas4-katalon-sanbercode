@@ -12,11 +12,24 @@
       <value></value>
       <variableId>aca28cc6-df68-42d3-817f-a4c294f34746</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86a2f01d-e6b5-4bee-9f0e-3f74fe1c61c7</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'standard_user'</defaultValue>
       <description></description>
       <id>aca28cc6-df68-42d3-817f-a4c294f34746</id>
       <masked>false</masked>
       <name>username_success</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>86a2f01d-e6b5-4bee-9f0e-3f74fe1c61c7</id>
+      <masked>false</masked>
+      <name>password_success</name>
    </variable>
 </TestCaseEntity>
