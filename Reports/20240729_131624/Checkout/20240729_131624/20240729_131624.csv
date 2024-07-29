@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,Chrome 126.0.0.0,,,29-07-2024 13:16:27,29-07-2024 13:16:36,8.162s,PASSED
+,,,,,,,
+Test Cases/Web/Succes Login,Chrome 126.0.0.0,,,29-07-2024 13:16:28,29-07-2024 13:16:34,6.131s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 13:16:28,29-07-2024 13:16:30,1.743s,PASSED
+navigateToUrl(baseUrl),Chrome 126.0.0.0,,,29-07-2024 13:16:30,29-07-2024 13:16:30,0.493s,PASSED
+"setText(findTestObject(""Success Login/input_username""), ""standard_user"")",Chrome 126.0.0.0,,,29-07-2024 13:16:30,29-07-2024 13:16:32,2.067s,PASSED
+"setText(findTestObject(""Success Login/input_password""), password_success)",Chrome 126.0.0.0,,,29-07-2024 13:16:32,29-07-2024 13:16:33,0.616s,PASSED
+"click(findTestObject(""Success Login/btn_login""))",Chrome 126.0.0.0,,,29-07-2024 13:16:33,29-07-2024 13:16:33,0.352s,PASSED
+"verifyElementVisible(findTestObject(""Success Login/page_title""))",Chrome 126.0.0.0,,,29-07-2024 13:16:33,29-07-2024 13:16:34,0.556s,PASSED
+,,,,,,,
+Test Cases/Web/Add product to cart,Chrome 126.0.0.0,,,29-07-2024 13:16:34,29-07-2024 13:16:35,0.904s,PASSED
+"click(findTestObject(""Homepage/button_add_to_cart""))",Chrome 126.0.0.0,,,29-07-2024 13:16:34,29-07-2024 13:16:34,0.319s,PASSED
+"verifyElementVisible(findTestObject(""Homepage/icon_cart_with_product""))",Chrome 126.0.0.0,,,29-07-2024 13:16:34,29-07-2024 13:16:35,0.524s,PASSED
+,,,,,,,
+Test Cases/Web/Success Checkout Product,Chrome 126.0.0.0,,,29-07-2024 13:16:35,29-07-2024 13:16:36,0.958s,PASSED
+"click(findTestObject(""Homepage/btn_cart_icon""))",Chrome 126.0.0.0,,,29-07-2024 13:16:35,29-07-2024 13:16:35,0.314s,PASSED
+"click(findTestObject(""Cart Page/btn_checkout""))",Chrome 126.0.0.0,,,29-07-2024 13:16:35,29-07-2024 13:16:36,0.536s,PASSED

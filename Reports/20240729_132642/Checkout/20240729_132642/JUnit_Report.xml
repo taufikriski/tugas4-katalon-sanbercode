@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout" time="13.129" tests="3" failures="0" errors="0">
+   <testsuite name="Checkout" tests="3" failures="0" errors="0" time="13.129" skipped="0" timestamp="29-07-2024T13:26:47" hostname="taufi - DESKTOP-0TIJC0L" id="Test Suites/Checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Pribadi\\QA\\Sanbercode\\tugas4-katalon-sanbercode\\tugas4-katalon-sanbercode\\Reports\\20240729_132642\\Checkout\\20240729_132642"/>
+         <property name="logFiles" value="D:\\Pribadi\\QA\\Sanbercode\\tugas4-katalon-sanbercode\\tugas4-katalon-sanbercode\\Reports\\20240729_132642\\Checkout\\20240729_132642\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="taufi - DESKTOP-0TIJC0L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.22"/>
+         <property name="sessionId" value="4b1717a84dc5166c95315d830634052d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web/Succes Login" time="6.815" classname="Test Cases/Web/Succes Login" status="PASSED">
+         <system-out><![CDATA[29-07-2024T13:26:47 - [TEST_CASE][PASSED] - Test Cases/Web/Succes Login: Test Cases/Web/Succes Login
+
+29-07-2024T13:26:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-07-2024T13:26:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-07-2024T13:26:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-07-2024T13:26:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-07-2024T13:26:50 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://www.saucedemo.com/' successfully
+
+29-07-2024T13:26:50 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+29-07-2024T13:26:51 - [TEST_STEP][PASSED] - setText(findTestObject("Success Login/input_username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Success Login/input_username'
+
+29-07-2024T13:26:52 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Success Login/input_username'
+
+29-07-2024T13:26:52 - [TEST_STEP][PASSED] - setText(findTestObject("Success Login/input_password"), password_success): Text 'secret_sauce' is set on object 'Object Repository/Success Login/input_password'
+
+29-07-2024T13:26:53 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Success Login/input_password'
+
+29-07-2024T13:26:53 - [TEST_STEP][PASSED] - click(findTestObject("Success Login/btn_login")): Object: 'Object Repository/Success Login/btn_login' is clicked on
+
+29-07-2024T13:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Success Login/btn_login' is clicked on
+
+29-07-2024T13:26:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Success Login/page_title")): Object 'Object Repository/Success Login/page_title' is visible
+
+29-07-2024T13:26:54 - [MESSAGE][PASSED] - Object 'Object Repository/Success Login/page_title' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Add product to cart" time="0.945" classname="Test Cases/Web/Add product to cart" status="PASSED">
+         <system-out><![CDATA[29-07-2024T13:26:54 - [TEST_CASE][PASSED] - Test Cases/Web/Add product to cart: Test Cases/Web/Add product to cart
+
+29-07-2024T13:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/button_add_to_cart")): Object: 'Object Repository/Homepage/button_add_to_cart' is clicked on
+
+29-07-2024T13:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/button_add_to_cart' is clicked on
+
+29-07-2024T13:26:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/icon_cart_with_product")): Object 'Object Repository/Homepage/icon_cart_with_product' is visible
+
+29-07-2024T13:26:55 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/icon_cart_with_product' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Success Checkout Product" time="5.14" classname="Test Cases/Web/Success Checkout Product" status="PASSED">
+         <system-out><![CDATA[29-07-2024T13:26:55 - [TEST_CASE][PASSED] - Test Cases/Web/Success Checkout Product: Test Cases/Web/Success Checkout Product
+
+29-07-2024T13:26:55 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/btn_cart_icon")): Object: 'Object Repository/Homepage/btn_cart_icon' is clicked on
+
+29-07-2024T13:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/btn_cart_icon' is clicked on
+
+29-07-2024T13:26:55 - [TEST_STEP][PASSED] - click(findTestObject("Cart Page/btn_checkout")): Object: 'Object Repository/Cart Page/btn_checkout' is clicked on
+
+29-07-2024T13:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart Page/btn_checkout' is clicked on
+
+29-07-2024T13:26:56 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout information page/input_name"), "Peter"): Text 'Peter' is set on object 'Object Repository/Checkout information page/input_name'
+
+29-07-2024T13:26:57 - [MESSAGE][PASSED] - Text 'Peter' is set on object 'Object Repository/Checkout information page/input_name'
+
+29-07-2024T13:26:57 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout information page/input_last_name"), "Parker"): Text 'Parker' is set on object 'Object Repository/Checkout information page/input_last_name'
+
+29-07-2024T13:26:58 - [MESSAGE][PASSED] - Text 'Parker' is set on object 'Object Repository/Checkout information page/input_last_name'
+
+29-07-2024T13:26:58 - [TEST_STEP][PASSED] - setText(findTestObject("Checkout information page/input_postal_code"), "12345"): Text '12345' is set on object 'Object Repository/Checkout information page/input_postal_code'
+
+29-07-2024T13:26:58 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Checkout information page/input_postal_code'
+
+29-07-2024T13:26:58 - [TEST_STEP][PASSED] - click(findTestObject("Checkout information page/btn_continue")): Object: 'Object Repository/Checkout information page/btn_continue' is clicked on
+
+29-07-2024T13:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout information page/btn_continue' is clicked on
+
+29-07-2024T13:26:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Overview Page/btn_finish")): Object: 'Object Repository/Object Overview Page/btn_finish' is clicked on
+
+29-07-2024T13:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Overview Page/btn_finish' is clicked on
+
+29-07-2024T13:27:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_complete/chckout_title_done")): Object 'Object Repository/Checkout_complete/chckout_title_done' is visible
+
+29-07-2024T13:27:00 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_complete/chckout_title_done' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-07-2024T13:26:47 - [TEST_SUITE][PASSED] - Checkout: Test Cases/Web/Success Checkout Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

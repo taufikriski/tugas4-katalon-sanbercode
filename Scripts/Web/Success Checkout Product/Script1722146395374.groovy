@@ -17,17 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Homepage/button_add_to_cart'))
-
 WebUI.click(findTestObject('Homepage/btn_cart_icon'))
-
-WebUI.verifyElementVisible(findTestObject('Cart Page/cart_title'))
 
 WebUI.click(findTestObject('Cart Page/btn_checkout'))
 
-WebUI.setText(findTestObject('Checkout information page/input_name'), first_name)
+WebUI.setText(findTestObject('Checkout information page/input_name'), 'Peter')
 
-WebUI.setText(findTestObject('Checkout information page/input_last_name'), last_name)
+WebUI.setText(findTestObject('Checkout information page/input_last_name'), 'Parker')
 
-WebUI.setText(findTestObject('Checkout information page/input_postal_code'), postal_code)
+WebUI.setText(findTestObject('Checkout information page/input_postal_code'), '12345')
+
+WebUI.click(findTestObject('Checkout information page/btn_continue'))
+
+WebUI.click(findTestObject('Object Overview Page/btn_finish'))
+
+WebUI.verifyElementVisible(findTestObject('Checkout_complete/chckout_title_done'))
 

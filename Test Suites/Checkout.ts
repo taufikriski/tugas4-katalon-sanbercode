@@ -31,7 +31,14 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>70af78e3-46e2-4b39-b95b-d77d404dc524</guid>
+      <guid>9af288a7-1b75-4cfd-946a-cf7b5595a15d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/Add product to cart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0202975-4371-42fe-9cf3-6db708162e7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Success Checkout Product</testCaseId>
